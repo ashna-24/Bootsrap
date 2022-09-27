@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gmail Inbox</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="assets/jquery.js"></script>
+        <script src="assets/bootstrap.js"></script>     
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <div class="headerContainer-fluid">
+           <div class="row">
+               <div class="col-sm-2">
+                   <div class="headerLeft">
+                       <img src="assets/menu.png">
+                       <img src="assets/logo.png">
+                   </div>
+               </div>
+               <div class="col-sm-8">
+                   <div class="headerMiddle">
+                       <img src="assets/search.png">
+                       <input type="text" placeholder="Search mail"/>
+                       <img src="assets/tune.png">
+                   </div>
+               </div>
+               <div class="col-sm-2">
+                   <div class="headerRight">
+                      <img src="assets/help.png">
+                      <img src="assets/settings.png">
+                      <img src="assets/apps.png">
+                      <img src="assets/account.png">   
+                   </div>
+               </div>
+           </div>
+        </div>
+
+        <div class="main">
+           <div class="row">
+               <div class="col-sm-2">
+                   <div class="sidebar">
+                      <button class="sidebarCompose">
+                          <img src="assets/edit.png" alt="not found">
+                          Compose
+                      </button>
+                   </div>
+                   <div class="sidebarOption sidebarOption_active">
+                         <img src="assets/inbox.png" alt="not found">
+                         <h4>Inbox</h4>
+                   </div>
+                   <div class="sidebarOption">
+                         <img src="assets/star.png" alt="not found">
+                         <h4>Starred</h4>
+                   </div>
+                   <div class="sidebarOption">
+                         <img src="assets/schedule.png" alt="not found">
+                         <h4>Snoozed</h4>
+                   </div>
+                   <div class="sidebarOption">
+                        <img src="assets/send.png" alt="not found">
+                        <h4>Sent</h4>
+                   </div>
+                   <div class="sidebarOption">
+                        <img src="assets/note.png" alt="not found">
+                        <h4>Draft</h4>
+                   </div>
+                   <div class="sidebarOption">
+                       <img src="assets/expand_more.png" alt="not found">
+                       <h4>More</h4>
+                   </div>
+                   <div class="sidebar_footer">
+                       <h4>Labels</h4>
+                       <img src="assets/add.png" alt="not found">
+                   </div>
+              </div>
+
+              <div class="col-sm-10">
+                   <div class="emailList">
+                       <div class="emailList_settings">
+                           <div class="emailList_settingsLeft">
+                               <input type="checkbox"/>
+                               <img src="assets/arrow_drop_down.png" alt="not found">
+                               <img src="assets/replay.png" alt="not found">
+                               <img src="assets/more.png" alt="not found">
+                           </div>
+                           <div class="emailList_settingsRight">
+                               <p>1-50 of 2,060</p>
+                               <img src="assets/chevron_left.png" alt="not found">
+                               <img src="assets/chevron_right.png" alt="not found">
+                               <img src="assets/keyboard.png" alt="not found">
+                               <img src="assets/arrow_drop_down.png" alt="not found">                    
+                           </div>
+                       </div>
+                       <div class="emailList_scroll">
+                           <div class="emailList_sections">
+                               <div class="section section_selected">
+                                   <img src="assets/inbox.png" alt="not found">
+                                   <h4>Primary</h4>
+                               </div>
+                               <div class="section">
+                                   <img src="assets/promotion.png" alt="not found">
+                                   <h4>Promotions</h4>
+                               </div>
+                               <div class="section">
+                                   <img src="assets/group.png" alt="not found">
+                                   <h4>Social</h4>
+                               </div>
+                           </div>
+
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">5:36AM</p>
+                               </div>
+                           </div> 
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">5:36AM</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">12:56AM</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Yesterday</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Yesterday</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Yesterday</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 25</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 24</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 24</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 23</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 22</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 22</p>
+                               </div>
+                           </div>    
+
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 20</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 20</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 19</p>
+                               </div>
+                           </div>    
+                           <div class="emailList_list">
+                               <div class="emailRow">
+                                   <div class="emailRow_options">
+                                       <input type="checkbox">
+                                       <img src="assets/star.png" alt="not found">
+                                       <img src="assets/label_important.png" alt="not found">
+                                   </div>
+                                   <h4 class="emailRow_title">Flipkart</h4>
+                                   <div class="emailList_message">
+                                       <h4>Your Feedback is Important to Us!
+                                           <span class="emailRow_description">
+                                              Dear Customer,
+                                              Your Feedback is very important to us.
+                                           </span>
+                                       </h4>
+                                   </div>
+                                   <p class="emailRow_time">Sep 18</p>
+                               </div>
+                           </div>       
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </body>
+</html>
