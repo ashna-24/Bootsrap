@@ -1,6 +1,15 @@
 *{
   margin:0;
   padding:0;
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.display_flex{
+  display: flex;
 }
 
 .headerLeft{
@@ -47,9 +56,7 @@
 }
 
 .sidebarCompose{
-    margin-top: 7px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin: 7px 0px 10px 10px;
     color: rgb(80, 77, 77);
     padding: 14px;
     width: 146px;
@@ -135,11 +142,8 @@
 }
 
 body{
-    overflow-y: hidden;
-    overflow-x:hidden;
     background-color:whitesmoke;
-    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    font-size: 14;
+    font-size: 14px;
 }
 
 .emailList{
@@ -154,14 +158,13 @@ body{
     overflow-y: scroll;
     border-radius: 5px;
     width:1116px;
-    height: 700px;
+    height: 530px;
     cursor: pointer;
 }
 
 .emailList_settings{
     position: sticky;
     display: flex;
-    top: 1;
     justify-content: space-between;  
     background-color: white;
     border-top-left-radius: 20px;
@@ -189,7 +192,6 @@ body{
 
 .emailList_settingsRight p{
     color: rgb(158, 152, 152);
-    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     font-size: 13px;
     margin-top:10px;
     cursor: pointer;
@@ -215,12 +217,13 @@ body{
 }
 
 .emailList_list{
-    background-color: white;    
+    background-color: white; 
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;   
 }
 
 .emailList_sections{
     position: sticky;
-    top: 0;
     display: flex;
     background-color: white;
     border-bottom: 1px solid whitesmoke;
@@ -283,19 +286,17 @@ body{
 }
 
 .emailList_message h4{
-    width: 640px;
+    width: 600px;
     font-size:14px;
     font-weight:400;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0px 5px;
 }
 
 .emailRow_title{
     font-size: 14px;
-    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 
 .emailRow_time{
