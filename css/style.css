@@ -31,7 +31,6 @@
 
 .headerMiddle img{
     padding: 3px;
-    cursor: pointer;
 }
 
 .headerMiddle input{
@@ -47,7 +46,6 @@
 
 .headerRight img{
   margin-right:10px;
-  cursor:pointer;
 }
 
 .sidebar{
@@ -63,7 +61,6 @@
     font-size: 13px;
     border-radius: 13px;
     background-color: white;
-    cursor: pointer;
     border: 1px solid rgb(128, 127, 127);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 }
@@ -77,7 +74,6 @@
     align-items: center;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    cursor: pointer;
 }
 
 .sidebarOption img{
@@ -125,7 +121,6 @@
 .sidebar_footer img{
     padding: 28px;
     margin-left: 55px;
-    cursor: pointer;
 }
 
 .main{
@@ -149,7 +144,6 @@ body{
     border-radius: 5px;
     width:1124px;
     height: 530px;
-    cursor: pointer;
 }
 
 .emailList_settings{
@@ -169,7 +163,6 @@ body{
 
 .emailList_settings img{
     margin: 5px;
-    cursor: pointer;
 }
 
 .emailList_settingsRight{
@@ -180,14 +173,12 @@ body{
     color: rgb(158, 152, 152);
     font-size: 13px;
     margin-top:10px;
-    cursor: pointer;
     border: 1px;
     border-radius: 5px;    
 }
 
 .emailList_settingsRight img{
     margin: 5px;
-    cursor: pointer;
 }
 
 .section{
@@ -196,7 +187,6 @@ body{
     border-bottom: 1px solid whitesmoke;
     padding: 10px;
     min-width: 190px;
-    cursor: pointer;
     color: gray;
 }
 
@@ -220,7 +210,6 @@ body{
 
 .section_selected img{
     color:blue;
-    image-rendering: pixelated;
 }
 
 .section:hover{
@@ -244,7 +233,7 @@ body{
 
 .emailRow{
     align-items: center;
-    padding:10px;
+    padding:5px;
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
     z-index: 999;
@@ -278,7 +267,7 @@ body{
 .emailRow_time{
     padding-right: 15px;
     font-size: 11px;
-    margin-left: 160px;
+    margin-left: 215px;
 }
 
 .emailRow_description{
